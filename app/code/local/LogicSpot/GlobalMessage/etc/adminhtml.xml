@@ -12,7 +12,7 @@
                                         <title>LogicSpot Modules</title>
                                         <children>
                                             <globalmessage>
-                                                <title>LogicSpot Custom Message</title>
+                                                <title>LogicSpot Global Message</title>
                                             </globalmessage>
                                         </children>
                                     </logicspot>

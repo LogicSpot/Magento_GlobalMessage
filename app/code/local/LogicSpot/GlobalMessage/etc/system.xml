@@ -11,14 +11,14 @@
             <show_in_store>1</show_in_store>
             <groups>
                 <globalmessage>
-                    <label>Custom Message Configuration</label>
+                    <label>Global Message Configuration</label>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <sort_order>1</sort_order>
                     <fields>
                         <enable>
-                            <label>Enable custom message</label>
+                            <label>Enable global message</label>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>

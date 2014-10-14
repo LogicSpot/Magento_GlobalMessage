@@ -8,8 +8,8 @@
 class LogicSpot_GlobalMessage_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /** XML paths to config values */
-    const CUSTOM_MESSAGE_ENABLED    = 'logicspot/globalmessage/enable';
-    const CUSTOM_MESSAGE_BLOCK      = 'logicspot/globalmessage/block_id';
+    const GLOBAL_MESSAGE_ENABLED    = 'logicspot/globalmessage/enable';
+    const GLOBAL_MESSAGE_BLOCK      = 'logicspot/globalmessage/block_id';
 
     /**
      * Check and return if module is enabled in current store
@@ -17,7 +17,7 @@ class LogicSpot_GlobalMessage_Helper_Data extends Mage_Core_Helper_Abstract
      * @return bool
      */
     public function isEnabled() {
-        return Mage::getStoreConfigFlag(self::CUSTOM_MESSAGE_ENABLED);
+        return Mage::getStoreConfigFlag(self::GLOBAL_MESSAGE_ENABLED);
     }
 
     /**
@@ -26,6 +26,6 @@ class LogicSpot_GlobalMessage_Helper_Data extends Mage_Core_Helper_Abstract
      * @return int
      */
     public function getBlockId() {
-        return Mage::getStoreConfig(self::CUSTOM_MESSAGE_BLOCK);
+        return Mage::getStoreConfig(self::GLOBAL_MESSAGE_BLOCK);
     }
 }
