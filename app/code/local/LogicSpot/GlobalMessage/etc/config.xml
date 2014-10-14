@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Custom module that allows to put static block as a global message around the site using layout.xml
+ * Allows to set different setting across multiple websites
+ */
+-->
+<config>
+    <modules>
+        <LogicSpot_GlobalMessage>
+            <active>true</active>
+            <codePool>local</codePool>
+        </LogicSpot_GlobalMessage>
+    </modules>
+    <global>
+        <blocks>
+            <logicspot_globalmessage>
+                <class>LogicSpot_GlobalMessage_Block</class>
+            </logicspot_globalmessage>
+        </blocks>
+        <helpers>
+            <logicspot_globalmessage>
+                <class>LogicSpot_GlobalMessage_Helper</class>
+            </logicspot_globalmessage>
+        </helpers>
+        <models>
+            <logicspot_globalmessage>
+                <class>LogicSpot_GlobalMessage_Model</class>
+            </logicspot_globalmessage>
+        </models>
+    </global>
+</config>
