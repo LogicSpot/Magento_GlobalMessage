@@ -8,14 +8,13 @@
                         <children>
                             <config>
                                 <children>
-                                    <logicspot translate="title" module="adminhtml">
-                                        <title>LogicSpot Modules</title>
+                                    <logicspot_core>
                                         <children>
                                             <globalmessage>
                                                 <title>LogicSpot Global Message</title>
                                             </globalmessage>
                                         </children>
-                                    </logicspot>
+                                    </logicspot_core>
                                 </children>
                             </config>
                         </children>

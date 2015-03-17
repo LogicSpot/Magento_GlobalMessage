@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <sections>
-        <logicspot>
-            <label>LogicSpot</label>
-            <tab>general</tab>
-            <frontend_type>text</frontend_type>
+        <logicspot_globalmessage>
+            <label>Global Message</label>
+            <tab>logicspot_core</tab>
             <sort_order>1</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
@@ -38,6 +37,6 @@
                     </fields>
                 </globalmessage>
             </groups>
-        </logicspot>
+        </logicspot_globalmessage>
     </sections>
 </config>

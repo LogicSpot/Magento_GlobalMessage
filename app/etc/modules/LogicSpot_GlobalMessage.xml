@@ -4,6 +4,9 @@
         <LogicSpot_GlobalMessage>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+                <LogicSpot_Core />
+            </depends>
         </LogicSpot_GlobalMessage>
     </modules>
 </config>
