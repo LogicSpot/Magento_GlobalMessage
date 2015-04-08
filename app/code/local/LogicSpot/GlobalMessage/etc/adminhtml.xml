@@ -8,13 +8,9 @@
                         <children>
                             <config>
                                 <children>
-                                    <logicspot_core>
-                                        <children>
-                                            <globalmessage>
-                                                <title>LogicSpot Global Message</title>
-                                            </globalmessage>
-                                        </children>
-                                    </logicspot_core>
+                                    <logicspot_globalmessage>
+                                        <title>LogicSpot Global Message Section</title>
+                                    </logicspot_globalmessage>
                                 </children>
                             </config>
                         </children>
