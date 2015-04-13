@@ -1,5 +1,4 @@
-## Modman Module LogicSpot Core
-app/code/local/LogicSpot/Core/*                             app/code/local/LogicSpot/Core
-app/design/adminhtml/default/default/layout/logicspot/*     app/design/adminhtml/default/default/layout/logicspot
-app/etc/modules/*                                           app/etc/modules/
-skin/adminhtml/default/default/logicspot/core/*             skin/adminhtml/default/default/logicspot/core
+## Modman Module LogicSpot Global Message
+app/code/local/LogicSpot/GlobalMessage/*                  app/code/local/LogicSpot/GlobalMessage
+app/design/frontend/base/default/template/logicspot/*     app/design/frontend/base/default/template/logicspot/
+app/etc/modules/*                                         app/etc/modules/

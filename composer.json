@@ -12,7 +12,6 @@
     }
   ],
   "require":{
-    "logicspot/core":"*",
-    "magento-hackathon/magento-composer-installer":"*"
+    "logicspot/core":"*"
   }
 }

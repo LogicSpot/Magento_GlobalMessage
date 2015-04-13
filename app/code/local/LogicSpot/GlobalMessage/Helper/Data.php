@@ -22,8 +22,8 @@
 class LogicSpot_GlobalMessage_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /** XML paths to config values */
-    const GLOBAL_MESSAGE_ENABLED    = 'logicspot/globalmessage/enable';
-    const GLOBAL_MESSAGE_BLOCK      = 'logicspot/globalmessage/block_id';
+    const GLOBAL_MESSAGE_ENABLED    = 'logicspot_globalmessage/globalmessage/enable';
+    const GLOBAL_MESSAGE_BLOCK      = 'logicspot_globalmessage/globalmessage/block_id';
 
     /**
      * Check and return if module is enabled in current store
