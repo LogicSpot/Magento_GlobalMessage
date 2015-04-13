@@ -1,15 +1,25 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Custom module that allows to put static block as a global message around the site using layout.xml
- * Allows to set different setting across multiple websites
+ * LogicSpot_GlobalMessage
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the GNU General Public License v3.0
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/licenses/gpl-3.0.txt
+ *
+ * @category    LogicSpot
+ * @package     LogicSpot_GlobalMessage
+ * @copyright   Copyright (c) 2015 LogicSpot (http://www.logicspot.com)
+ * @license     http://www.gnu.org/licenses/gpl-3.0.txt GNU General Public License v3.0
  */
 -->
 <config>
     <modules>
         <LogicSpot_GlobalMessage>
-            <active>true</active>
-            <codePool>local</codePool>
+            <version>0.1.0</version>
         </LogicSpot_GlobalMessage>
     </modules>
     <global>
