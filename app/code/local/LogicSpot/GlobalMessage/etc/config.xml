@@ -19,7 +19,7 @@
 <config>
     <modules>
         <LogicSpot_GlobalMessage>
-            <version>0.1.0</version>
+            <version>0.2.0</version>
         </LogicSpot_GlobalMessage>
     </modules>
     <global>
@@ -38,5 +38,12 @@
                 <class>LogicSpot_GlobalMessage_Model</class>
             </logicspot_globalmessage>
         </models>
+        <resources>
+            <logicspot_globalmessage_setup>
+                <setup>
+                    <module>LogicSpot_GlobalMessage</module>
+                </setup>
+            </logicspot_globalmessage_setup>
+        </resources>
     </global>
 </config>
