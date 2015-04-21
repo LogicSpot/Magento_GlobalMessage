@@ -1,5 +1,5 @@
 ## Modman Module LogicSpot Global Message
-app/code/local/LogicSpot/GlobalMessage/*                  app/code/local/LogicSpot/GlobalMessage
+app/code/community/LogicSpot/GlobalMessage/*              app/code/community/LogicSpot/GlobalMessage
 app/design/frontend/base/default/template/logicspot/*     app/design/frontend/base/default/template/logicspot/
 app/design/frontend/base/default/layout/logicspot/*       app/design/frontend/base/default/layout/logicspot/
 app/etc/modules/*                                         app/etc/modules/

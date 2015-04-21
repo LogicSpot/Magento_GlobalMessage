@@ -20,7 +20,7 @@
     <modules>
         <LogicSpot_GlobalMessage>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
             <depends>
                 <LogicSpot_Core />
             </depends>
