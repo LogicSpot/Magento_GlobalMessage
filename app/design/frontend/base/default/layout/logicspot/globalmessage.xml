@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="after_body_start">
+            <block type="logicspot_globalmessage/message" name="logicspot_globalmessage" as="logicspot_globalmessage" />
+        </reference>
+    </default>
+</layout>

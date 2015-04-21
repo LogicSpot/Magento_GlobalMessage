@@ -46,4 +46,13 @@
             </logicspot_globalmessage_setup>
         </resources>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <module>
+                    <file>logicspot/globalmessage.xml</file>
+                </module>
+            </updates>
+        </layout>
+    </frontend>
 </config>
