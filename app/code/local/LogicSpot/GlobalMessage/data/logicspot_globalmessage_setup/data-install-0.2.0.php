@@ -13,3 +13,6 @@ if ($cmsBlock->isObjectNew()) {
         ->setContent($content)
         ->save();
 }
+
+$msgConfig = new Mage_Core_Model_Config();
+$msgConfig->saveConfig('logicspot_globalmessage/globalmessage/block_id', $cmsBlock->getId());

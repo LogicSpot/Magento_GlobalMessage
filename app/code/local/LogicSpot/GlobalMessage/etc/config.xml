@@ -55,4 +55,11 @@
             </updates>
         </layout>
     </frontend>
+    <default>
+        <logicspot_globalmessage>
+            <globalmessage>
+                <enable>1</enable>
+            </globalmessage>
+        </logicspot_globalmessage>
+    </default>
 </config>
