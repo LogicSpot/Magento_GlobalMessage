@@ -53,4 +53,4 @@ This module is distributed under GNU General Public License v3.0. Full text of t
 [Magento]:http://magento.com/
 [modman]:https://github.com/colinmollenhour/modman
 [magento-composer-installer]:https://github.com/Cotya/magento-composer-installer
-[Core]:https://github.com/logicspot/core
+[Core]:https://github.com/LogicSpot/Magento_Core
